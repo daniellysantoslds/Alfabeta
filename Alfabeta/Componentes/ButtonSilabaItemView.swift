@@ -12,8 +12,8 @@ struct ButtonSilabaItemView: View {
     @State var buttonColor: Color
     @State var textColor: Color
     @State var initColor: Color
-    var silabaActive: Bool
-    var sound: SoundOption
+    let silabaActive: Bool
+    let sound: SoundOption
     
     
    
