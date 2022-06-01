@@ -145,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 93A8EBC228344B0A0025EDF1 /* Build configuration list for PBXProject "Alfabeta-swifui" */;
+			buildConfigurationList = 93A8EBC228344B0A0025EDF1 /* Build configuration list for PBXProject "Alfabeta" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -372,7 +372,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93A8EBC228344B0A0025EDF1 /* Build configuration list for PBXProject "Alfabeta-swifui" */ = {
+		93A8EBC228344B0A0025EDF1 /* Build configuration list for PBXProject "Alfabeta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93A8EBD328344B0B0025EDF1 /* Debug */,
