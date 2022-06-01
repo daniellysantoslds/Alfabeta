@@ -49,7 +49,7 @@ struct AtividadeSilabaView: View {
                     
                     HStack(alignment: .center
                            , spacing: 0){
-                        ButtonSilabaItemView(buttonText: "pa", buttonColor: Color("Yellow -1"), textColor: Color("Black 0"),  sound: SoundOption.PA, silabaActive: false)
+                        ButtonSilabaItemView(buttonText: "pa", buttonColor: Color("Yellow 0"), textColor: Color("Black 0"),  sound: SoundOption.PA, silabaActive: false)
                         Spacer()
                         ButtonSilabaItemView(buttonText: "xa", buttonColor: Color("Purple 0"), textColor: Color("White 0"),  sound: SoundOption.XA, silabaActive: false)
                         
