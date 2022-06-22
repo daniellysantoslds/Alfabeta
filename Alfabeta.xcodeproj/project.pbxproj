@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		930CC3FA2846507A00A851FE /* SoundButtonsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CC3F92846507A00A851FE /* SoundButtonsClass.swift */; };
 		930CC4012846539E00A851FE /* SoundOptionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CC4002846539E00A851FE /* SoundOptionEnum.swift */; };
+		9312C2152863A66100853699 /* SyllableAnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312C2142863A66100853699 /* SyllableAnswerModel.swift */; };
 		935F68C628357BBD00EBACB2 /* ClickSyllableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68C528357BBD00EBACB2 /* ClickSyllableView.swift */; };
 		935F68C828357D0C00EBACB2 /* SyllableViewActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68C728357D0C00EBACB2 /* SyllableViewActivity.swift */; };
 		935F68CC28358D7700EBACB2 /* ActivityImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68CB28358D7700EBACB2 /* ActivityImageView.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		930CC3F92846507A00A851FE /* SoundButtonsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundButtonsClass.swift; sourceTree = "<group>"; };
 		930CC4002846539E00A851FE /* SoundOptionEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundOptionEnum.swift; sourceTree = "<group>"; };
+		9312C2142863A66100853699 /* SyllableAnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllableAnswerModel.swift; sourceTree = "<group>"; };
 		935F68C528357BBD00EBACB2 /* ClickSyllableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickSyllableView.swift; sourceTree = "<group>"; };
 		935F68C728357D0C00EBACB2 /* SyllableViewActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SyllableViewActivity.swift; path = Navigation/SyllableViewActivity.swift; sourceTree = "<group>"; };
 		935F68CB28358D7700EBACB2 /* ActivityImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityImageView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,14 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		9312C2132863A2EC00853699 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9312C2142863A66100853699 /* SyllableAnswerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		9387ECD1284277C9004A9052 /* Componentes */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 		93A8EBC928344B0A0025EDF1 /* Alfabeta */ = {
 			isa = PBXGroup;
 			children = (
+				9312C2132863A2EC00853699 /* Models */,
 				930CC3F82846506700A851FE /* Sounds */,
 				9387ECD1284277C9004A9052 /* Componentes */,
 				935F68C728357D0C00EBACB2 /* SyllableViewActivity.swift */,
@@ -206,6 +217,7 @@
 				93A8EBCD28344B0A0025EDF1 /* ContentView.swift in Sources */,
 				93A8EBE328345E4A0025EDF1 /* HomeView.swift in Sources */,
 				93A8EBCB28344B0A0025EDF1 /* AlfabetaApp.swift in Sources */,
+				9312C2152863A66100853699 /* SyllableAnswerModel.swift in Sources */,
 				935F68D02835932300EBACB2 /* CardSyllableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
