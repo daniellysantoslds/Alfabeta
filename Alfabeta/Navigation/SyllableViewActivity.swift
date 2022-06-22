@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AtividadeSilabaView: View {
+struct SyllableViewActivity: View {
     var body: some View {
         NavigationView {
            
@@ -28,9 +28,9 @@ struct AtividadeSilabaView: View {
                     HStack(alignment: .center
                            , spacing: 10){
                         
-                        SilabaCorretaItemView(silabacorreta: "?", buttonColor: Color("Grey -1"), textColor: Color("Black 0"))
-                        SilabaCorretaItemView(silabacorreta: "lan", buttonColor: Color("Blue +1"), textColor: Color("White 0"))
-                        SilabaCorretaItemView(silabacorreta: "cia", buttonColor: Color("Blue +1"), textColor: Color("White 0"))
+                        CardSyllableView(silabacorreta: "?", buttonColor: Color("Grey -1"), textColor: Color("Black 0"))
+                        CardSyllableView(silabacorreta: "lan", buttonColor: Color("Blue +1"), textColor: Color("White 0"))
+                        CardSyllableView(silabacorreta: "cia", buttonColor: Color("Blue +1"), textColor: Color("White 0"))
                 } .padding([.bottom, .horizontal],0)
                     
                     
@@ -61,9 +61,9 @@ struct AtividadeSilabaView: View {
 
         }
     }
-struct AtividadeSilabaView_Previews: PreviewProvider {
+    struct SyllableViewActivity_Previews: PreviewProvider {
     static var previews: some View {
-        AtividadeSilabaView()
+        SyllableViewActivity()
     }
 }
 

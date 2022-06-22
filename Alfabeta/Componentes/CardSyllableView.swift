@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SilabaCorretaItemView: View {
+struct CardSyllableView: View {
     let silabacorreta: String;
     let buttonColor: Color;
     let textColor: Color;
@@ -35,9 +35,9 @@ struct SilabaCorretaItemView: View {
         }
 }
 
-struct SilabaCorretaItemView_Previews: PreviewProvider {
+struct CardSyllableView_Previews: PreviewProvider {
     static var previews: some View {
-        SilabaCorretaItemView(silabacorreta: "lan", buttonColor: Color("Blue +1"), textColor: Color("White 0"))
+        CardSyllableView(silabacorreta: "lan", buttonColor: Color("Blue +1"), textColor: Color("White 0"))
     }
 }
 

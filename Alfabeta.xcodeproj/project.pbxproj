@@ -12,7 +12,7 @@
 		935F68C628357BBD00EBACB2 /* ButtonSilabaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68C528357BBD00EBACB2 /* ButtonSilabaItemView.swift */; };
 		935F68C828357D0C00EBACB2 /* SyllableViewActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68C728357D0C00EBACB2 /* SyllableViewActivity.swift */; };
 		935F68CC28358D7700EBACB2 /* ActivityImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68CB28358D7700EBACB2 /* ActivityImageView.swift */; };
-		935F68D02835932300EBACB2 /* SilabaCorretaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68CF2835932300EBACB2 /* SilabaCorretaItemView.swift */; };
+		935F68D02835932300EBACB2 /* CardSyllableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68CF2835932300EBACB2 /* CardSyllableView.swift */; };
 		93A8EBCB28344B0A0025EDF1 /* AlfabetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A8EBCA28344B0A0025EDF1 /* AlfabetaApp.swift */; };
 		93A8EBCD28344B0A0025EDF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A8EBCC28344B0A0025EDF1 /* ContentView.swift */; };
 		93A8EBCF28344B0B0025EDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A8EBCE28344B0B0025EDF1 /* Assets.xcassets */; };
@@ -32,7 +32,7 @@
 		935F68C528357BBD00EBACB2 /* ButtonSilabaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSilabaItemView.swift; sourceTree = "<group>"; };
 		935F68C728357D0C00EBACB2 /* SyllableViewActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SyllableViewActivity.swift; path = Navigation/SyllableViewActivity.swift; sourceTree = "<group>"; };
 		935F68CB28358D7700EBACB2 /* ActivityImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityImageView.swift; sourceTree = "<group>"; };
-		935F68CF2835932300EBACB2 /* SilabaCorretaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilabaCorretaItemView.swift; sourceTree = "<group>"; };
+		935F68CF2835932300EBACB2 /* CardSyllableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSyllableView.swift; sourceTree = "<group>"; };
 		93A8EBC728344B0A0025EDF1 /* Alfabeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alfabeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A8EBCA28344B0A0025EDF1 /* AlfabetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfabetaApp.swift; sourceTree = "<group>"; };
 		93A8EBCC28344B0A0025EDF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				935F68CB28358D7700EBACB2 /* ActivityImageView.swift */,
-				935F68CF2835932300EBACB2 /* SilabaCorretaItemView.swift */,
+				935F68CF2835932300EBACB2 /* CardSyllableView.swift */,
 				935F68C528357BBD00EBACB2 /* ButtonSilabaItemView.swift */,
 				93BC0F562846680200492D91 /* CardView.swift */,
 			);
@@ -206,7 +206,7 @@
 				93A8EBCD28344B0A0025EDF1 /* ContentView.swift in Sources */,
 				93A8EBE328345E4A0025EDF1 /* HomeView.swift in Sources */,
 				93A8EBCB28344B0A0025EDF1 /* AlfabetaApp.swift in Sources */,
-				935F68D02835932300EBACB2 /* SilabaCorretaItemView.swift in Sources */,
+				935F68D02835932300EBACB2 /* CardSyllableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

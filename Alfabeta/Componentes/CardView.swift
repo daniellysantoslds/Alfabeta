@@ -19,7 +19,7 @@ struct CardView: View {
     var body: some View {
         
         
-        NavigationLink( destination: AtividadeSilabaView()){
+        NavigationLink( destination: SyllableViewActivity()){
                 VStack (alignment: .center, spacing: 8)
                 {
             Image(imagem)
