@@ -40,18 +40,18 @@ struct SyllableViewActivity: View {
                     
                     HStack(alignment: .center
                            , spacing: 0){
-                        ButtonSilabaItemView(buttonText: "me", buttonColor: Color("Purple 0"), textColor: Color("White 0"), sound: SoundOption.ME,
+                        ClickSyllableView(buttonText: "me", buttonColor: Color("Purple 0"), textColor: Color("White 0"), sound: SoundOption.ME,
                                              silabaActive: true)
                     Spacer(minLength: 32)
-                        ButtonSilabaItemView(buttonText: "be", buttonColor: Color("Yellow -1"), textColor: Color("Black 0"), sound: SoundOption.BE, silabaActive: false)
+                        ClickSyllableView(buttonText: "be", buttonColor: Color("Yellow -1"), textColor: Color("Black 0"), sound: SoundOption.BE, silabaActive: false)
                     } .padding([.bottom, .horizontal],32)
                     
                     
                     HStack(alignment: .center
                            , spacing: 0){
-                        ButtonSilabaItemView(buttonText: "pa", buttonColor: Color("Yellow 0"), textColor: Color("Black 0"),  sound: SoundOption.PA, silabaActive: false)
+                        ClickSyllableView(buttonText: "pa", buttonColor: Color("Yellow 0"), textColor: Color("Black 0"),  sound: SoundOption.PA, silabaActive: false)
                         Spacer()
-                        ButtonSilabaItemView(buttonText: "xa", buttonColor: Color("Purple 0"), textColor: Color("White 0"),  sound: SoundOption.XA, silabaActive: false)
+                        ClickSyllableView(buttonText: "xa", buttonColor: Color("Purple 0"), textColor: Color("White 0"),  sound: SoundOption.XA, silabaActive: false)
                         
                     } .padding([.bottom, .horizontal],32)
                 }

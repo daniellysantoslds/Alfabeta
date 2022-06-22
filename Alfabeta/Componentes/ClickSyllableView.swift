@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ButtonSilabaItemView: View {
+struct ClickSyllableView: View {
     var buttonText: String
     @State var buttonColor: Color
     @State var textColor: Color
@@ -69,9 +69,9 @@ struct ButtonSilabaItemView: View {
 
 
 
-struct ButtonSilabaItemView_Previews: PreviewProvider {
+struct ClickSyllableView_Previews: PreviewProvider {
     static var previews: some View {
-        ButtonSilabaItemView(buttonText: "RA", buttonColor: Color("Blue 0"), textColor: Color("White 0"), sound: SoundOption.badun)
+        ClickSyllableView(buttonText: "RA", buttonColor: Color("Blue 0"), textColor: Color("White 0"), sound: SoundOption.badun)
     }
 }
 }
