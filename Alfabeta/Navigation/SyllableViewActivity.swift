@@ -8,6 +8,34 @@
 import SwiftUI
 
 struct SyllableViewActivity: View {
+    @Environment(\.presentationMode) var presentationMode
+    
+    let activities: [ActivityItemModel]
+    @State var activityIndex: Int = 0
+    
+    init(activities: [ActivityItemModel]) {
+        self.activities = activities
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     var body: some View {
         NavigationView {
            
@@ -63,7 +91,7 @@ struct SyllableViewActivity: View {
     }
     struct SyllableViewActivity_Previews: PreviewProvider {
     static var previews: some View {
-        SyllableViewActivity()
+        SyllableViewActivity(activities: SectionItemModel.initDataToFruits().activities)
     }
 }
 

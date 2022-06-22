@@ -12,6 +12,7 @@
 		9312C2152863A66100853699 /* SyllableAnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312C2142863A66100853699 /* SyllableAnswerModel.swift */; };
 		9312C2172863AC1D00853699 /* SyllableSentenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312C2162863AC1D00853699 /* SyllableSentenceModel.swift */; };
 		9312C2192863C0F500853699 /* ActivityItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312C2182863C0F500853699 /* ActivityItemModel.swift */; };
+		9312C21B2863C37D00853699 /* SectionItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312C21A2863C37D00853699 /* SectionItemModel.swift */; };
 		935F68C628357BBD00EBACB2 /* ClickSyllableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68C528357BBD00EBACB2 /* ClickSyllableView.swift */; };
 		935F68C828357D0C00EBACB2 /* SyllableViewActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68C728357D0C00EBACB2 /* SyllableViewActivity.swift */; };
 		935F68CC28358D7700EBACB2 /* ActivityImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68CB28358D7700EBACB2 /* ActivityImageView.swift */; };
@@ -35,6 +36,7 @@
 		9312C2142863A66100853699 /* SyllableAnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllableAnswerModel.swift; sourceTree = "<group>"; };
 		9312C2162863AC1D00853699 /* SyllableSentenceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllableSentenceModel.swift; sourceTree = "<group>"; };
 		9312C2182863C0F500853699 /* ActivityItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityItemModel.swift; sourceTree = "<group>"; };
+		9312C21A2863C37D00853699 /* SectionItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionItemModel.swift; sourceTree = "<group>"; };
 		935F68C528357BBD00EBACB2 /* ClickSyllableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickSyllableView.swift; sourceTree = "<group>"; };
 		935F68C728357D0C00EBACB2 /* SyllableViewActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SyllableViewActivity.swift; path = Navigation/SyllableViewActivity.swift; sourceTree = "<group>"; };
 		935F68CB28358D7700EBACB2 /* ActivityImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityImageView.swift; sourceTree = "<group>"; };
@@ -77,9 +79,10 @@
 		9312C2132863A2EC00853699 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9312C21A2863C37D00853699 /* SectionItemModel.swift */,
+				9312C2182863C0F500853699 /* ActivityItemModel.swift */,
 				9312C2142863A66100853699 /* SyllableAnswerModel.swift */,
 				9312C2162863AC1D00853699 /* SyllableSentenceModel.swift */,
-				9312C2182863C0F500853699 /* ActivityItemModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				9312C2172863AC1D00853699 /* SyllableSentenceModel.swift in Sources */,
 				930CC3FA2846507A00A851FE /* SoundButtonsClass.swift in Sources */,
 				935F68C828357D0C00EBACB2 /* SyllableViewActivity.swift in Sources */,
+				9312C21B2863C37D00853699 /* SectionItemModel.swift in Sources */,
 				935F68CC28358D7700EBACB2 /* ActivityImageView.swift in Sources */,
 				930CC4012846539E00A851FE /* SoundOptionEnum.swift in Sources */,
 				93BC0F572846680200492D91 /* CardView.swift in Sources */,

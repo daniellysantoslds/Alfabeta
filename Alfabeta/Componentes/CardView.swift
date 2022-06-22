@@ -10,16 +10,17 @@ import SwiftUI
 struct CardView: View {
     let titulo: String
     let imagem: String
-    init(titulo: String, imagem:String) {
+    let sectionItemData: SectionItemModel
+    init(titulo: String, imagem:String, sectionItemData: SectionItemModel) {
         self.titulo = titulo
         self.imagem = imagem
-
-        
+        self.sectionItemData = sectionItemData
     }
+    
     var body: some View {
-        
-        
-        NavigationLink( destination: SyllableViewActivity()){
+        NavigationLink(
+            destination: SyllableViewActivity(activities:sectionItemData.activities)
+        ){
                 VStack (alignment: .center, spacing: 8)
                 {
             Image(imagem)
@@ -39,8 +40,9 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(titulo: "Frutas", imagem: "capafrutas")
-    }
+        CardView(titulo: "Frutas", imagem: "capafrutas", sectionItemData: SectionItemModel.initDataToFruits())
 }
-    }
+}
+
+}
 
