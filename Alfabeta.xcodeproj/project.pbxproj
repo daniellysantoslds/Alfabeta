@@ -10,7 +10,7 @@
 		930CC3FA2846507A00A851FE /* SoundButtonsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CC3F92846507A00A851FE /* SoundButtonsClass.swift */; };
 		930CC4012846539E00A851FE /* SoundOptionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CC4002846539E00A851FE /* SoundOptionEnum.swift */; };
 		935F68C628357BBD00EBACB2 /* ButtonSilabaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68C528357BBD00EBACB2 /* ButtonSilabaItemView.swift */; };
-		935F68C828357D0C00EBACB2 /* AtividadeSilabaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68C728357D0C00EBACB2 /* AtividadeSilabaView.swift */; };
+		935F68C828357D0C00EBACB2 /* SyllableViewActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68C728357D0C00EBACB2 /* SyllableViewActivity.swift */; };
 		935F68CC28358D7700EBACB2 /* ActivityImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68CB28358D7700EBACB2 /* ActivityImageView.swift */; };
 		935F68D02835932300EBACB2 /* SilabaCorretaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68CF2835932300EBACB2 /* SilabaCorretaItemView.swift */; };
 		93A8EBCB28344B0A0025EDF1 /* AlfabetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A8EBCA28344B0A0025EDF1 /* AlfabetaApp.swift */; };
@@ -30,7 +30,7 @@
 		930CC3F92846507A00A851FE /* SoundButtonsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundButtonsClass.swift; sourceTree = "<group>"; };
 		930CC4002846539E00A851FE /* SoundOptionEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundOptionEnum.swift; sourceTree = "<group>"; };
 		935F68C528357BBD00EBACB2 /* ButtonSilabaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSilabaItemView.swift; sourceTree = "<group>"; };
-		935F68C728357D0C00EBACB2 /* AtividadeSilabaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AtividadeSilabaView.swift; path = Navigation/AtividadeSilabaView.swift; sourceTree = "<group>"; };
+		935F68C728357D0C00EBACB2 /* SyllableViewActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SyllableViewActivity.swift; path = Navigation/SyllableViewActivity.swift; sourceTree = "<group>"; };
 		935F68CB28358D7700EBACB2 /* ActivityImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityImageView.swift; sourceTree = "<group>"; };
 		935F68CF2835932300EBACB2 /* SilabaCorretaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilabaCorretaItemView.swift; sourceTree = "<group>"; };
 		93A8EBC728344B0A0025EDF1 /* Alfabeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alfabeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +100,7 @@
 			children = (
 				930CC3F82846506700A851FE /* Sounds */,
 				9387ECD1284277C9004A9052 /* Componentes */,
-				935F68C728357D0C00EBACB2 /* AtividadeSilabaView.swift */,
+				935F68C728357D0C00EBACB2 /* SyllableViewActivity.swift */,
 				93A8EBCA28344B0A0025EDF1 /* AlfabetaApp.swift */,
 				93A8EBCC28344B0A0025EDF1 /* ContentView.swift */,
 				93A8EBE228345E4A0025EDF1 /* HomeView.swift */,
@@ -198,7 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				930CC3FA2846507A00A851FE /* SoundButtonsClass.swift in Sources */,
-				935F68C828357D0C00EBACB2 /* AtividadeSilabaView.swift in Sources */,
+				935F68C828357D0C00EBACB2 /* SyllableViewActivity.swift in Sources */,
 				935F68CC28358D7700EBACB2 /* ActivityImageView.swift in Sources */,
 				930CC4012846539E00A851FE /* SoundOptionEnum.swift in Sources */,
 				93BC0F572846680200492D91 /* CardView.swift in Sources */,
