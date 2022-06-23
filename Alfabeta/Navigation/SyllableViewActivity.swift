@@ -19,19 +19,15 @@ struct SyllableViewActivity: View {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    func changeListActivityIndex() -> Void {
+        if (
+            (self.activityIndex + 1) <= (self.activities.count - 1)) {
+            self.activityIndex += 1
+            
+        } else{
+            self.presentationMode.wrappedValue.dismiss()
+        }
+    }
     
     
     
