@@ -30,65 +30,64 @@ struct SyllableViewActivity: View {
     }
     
     
-    
-    
     var body: some View {
-        NavigationView {
-           
-                VStack(alignment: .center, spacing: 10)
-                {
-                    
-                    
-                    HStack(alignment: .center
-                           , spacing: 0){
-                        ActivityImageView(imagematividade: "atividademelancia")
+        ScrollView(showsIndicators: false) {
+            Spacer(minLength: 32)
+            
+            VStack(alignment: .center, spacing: 10)
+            {
+                HStack(alignment: .center
+                       , spacing: 0){
+                    ActivityImageView(
+                        imagematividade: activities[activityIndex].image)
                         .padding([.bottom, .horizontal],0)
-                      
-                    }
-                    Spacer(minLength: 32)
                     
-                    
-                   //silabas para advinhar
-                    HStack(alignment: .center
-                           , spacing: 10){
-                        
-                        CardSyllableView(silabacorreta: "?", buttonColor: Color("Grey -1"), textColor: Color("Black 0"))
-                        CardSyllableView(silabacorreta: "lan", buttonColor: Color("Blue +1"), textColor: Color("White 0"))
-                        CardSyllableView(silabacorreta: "cia", buttonColor: Color("Blue +1"), textColor: Color("White 0"))
-                } .padding([.bottom, .horizontal],0)
-                    
-                    
-                    Spacer(minLength: 24)
-                    
-                    //opcoes de silabas
-                    
-                    HStack(alignment: .center
-                           , spacing: 0){
-                        ClickSyllableView(buttonText: "me", buttonColor: Color("Purple 0"), textColor: Color("White 0"), sound: SoundOption.ME,
-                                             silabaActive: true)
-                    Spacer(minLength: 32)
-                        ClickSyllableView(buttonText: "be", buttonColor: Color("Yellow -1"), textColor: Color("Black 0"), sound: SoundOption.BE, silabaActive: false)
-                    } .padding([.bottom, .horizontal],32)
-                    
-                    
-                    HStack(alignment: .center
-                           , spacing: 0){
-                        ClickSyllableView(buttonText: "pa", buttonColor: Color("Yellow 0"), textColor: Color("Black 0"),  sound: SoundOption.PA, silabaActive: false)
-                        Spacer()
-                        ClickSyllableView(buttonText: "xa", buttonColor: Color("Purple 0"), textColor: Color("White 0"),  sound: SoundOption.XA, silabaActive: false)
-                        
-                    } .padding([.bottom, .horizontal],32)
                 }
                 
+                Spacer(minLength: 32)
+                
+                //silabas para advinhar
+                LazyVGrid(columns: [
+                    GridItem(.adaptive(minimum: 100))
+                ],
+                          spacing: 20) { ForEach(activities[activityIndex].syllableSentence, id: \.id ) {
+                    syllableSentence in
+                   CardSyllableView(
+                        textButton: syllableSentence.syllable,
+                        toGuess: syllableSentence.toGuess)
+                }
+            }
             
-        
-
+            Spacer(minLength: 32)
+            
+                
+            //opcoes de silabas
+            LazyVGrid(columns: [
+                GridItem(.adaptive(minimum: 100))
+            ],
+                      spacing: 20) {
+                ForEach(activities[activityIndex].syllableAnswer, id: \.id ) {
+                    syllableAnswer in
+                    ClickSyllableView(
+                        buttonText: syllableAnswer.syllable,
+                        buttonColor: syllableAnswer.buttonColor,
+                        textColor: syllableAnswer.textColor,
+                        sound: syllableAnswer.sound,
+                        silabaActive: syllableAnswer.isCorrect, chandeListActivityIndex: self.changeListActivityIndex
+                        )
+                }
+            }
         }
     }
-    struct SyllableViewActivity_Previews: PreviewProvider {
+}
+
+struct SyllableViewActivity_Previews: PreviewProvider {
     static var previews: some View {
         SyllableViewActivity(activities: SectionItemModel.initDataToFruits().activities)
     }
 }
 
 }
+
+ 
+              

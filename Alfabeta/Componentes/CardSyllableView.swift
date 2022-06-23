@@ -8,19 +8,20 @@
 import SwiftUI
 
 struct CardSyllableView: View {
-    let silabacorreta: String;
+    let textButton: String;
     let buttonColor: Color;
     let textColor: Color;
-    init (silabacorreta: String, buttonColor: Color, textColor: Color){
-        self.silabacorreta = silabacorreta
-        self.buttonColor = buttonColor
-        self.textColor = textColor
+    let toGuess: Bool = false;
+    init (textButton: String, toGuess: Bool){
+        self.textButton = textButton
+        self.buttonColor = toGuess ? Color("Grey -1") : Color("Blue +1")
+        self.textColor = toGuess ? Color("Black 0") : Color("White 0")
     }
     var body: some View {
         VStack{
             Button(action: {
                 
-            }, label: { Text(silabacorreta.uppercased()).bold()
+            }, label: { Text(textButton.uppercased()).bold()
                 .padding(27)
                 .font(.title)
                 .foregroundColor(textColor).multilineTextAlignment(.center)
@@ -29,7 +30,7 @@ struct CardSyllableView: View {
                 .clipShape(RoundedRectangle(cornerRadius: 8))
                 .multilineTextAlignment(.center)
             
-            })
+            }).buttonStyle(PlainButtonStyle())
 
     
         }
@@ -37,7 +38,7 @@ struct CardSyllableView: View {
 
 struct CardSyllableView_Previews: PreviewProvider {
     static var previews: some View {
-        CardSyllableView(silabacorreta: "lan", buttonColor: Color("Blue +1"), textColor: Color("White 0"))
+        CardSyllableView(textButton: "lan", toGuess: false)
     }
 }
 
