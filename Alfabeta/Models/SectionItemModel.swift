@@ -101,6 +101,13 @@ class SectionItemModel{
         
         return SectionItemModel(activities: [activityMelancia, activityBanana, activityCereja])
     }
+    
+    //iniciar atividades em outro card "exemplo card legumes"
+    //static func initDataToLegums() -> SectionItemModel {
         
+        
+        
+   // }
+    
         
 }
