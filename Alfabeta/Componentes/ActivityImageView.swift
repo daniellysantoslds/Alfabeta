@@ -19,7 +19,7 @@ struct ActivityImageView: View {
         VStack {
             Image(imagematividade)
                 .resizable()
-                .aspectRatio(contentMode: .fill)
+                .aspectRatio(contentMode: .fit)
                 .frame(width: 340, height: 162)
                 .clipped()
             
@@ -30,6 +30,6 @@ struct ActivityImageView: View {
 
 struct ActivityImageView_Previews: PreviewProvider {
     static var previews: some View {
-        ActivityImageView(imagematividade: "Bananas")
+        ActivityImageView(imagematividade: "banana 1")
     }
 }

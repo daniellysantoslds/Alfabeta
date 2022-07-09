@@ -13,7 +13,6 @@
 		930044402879D65D0093D23B /* BA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9300443A2879D65D0093D23B /* BA.mp3 */; };
 		930044422879D65D0093D23B /* FA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9300443C2879D65D0093D23B /* FA.mp3 */; };
 		930044432879D65D0093D23B /* MA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9300443D2879D65D0093D23B /* MA.mp3 */; };
-		9300444E2879DD000093D23B /* banana 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9300444D2879DD000093D23B /* banana 2.png */; };
 		930CC3FA2846507A00A851FE /* SoundButtonsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CC3F92846507A00A851FE /* SoundButtonsClass.swift */; };
 		930CC4012846539E00A851FE /* SoundOptionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CC4002846539E00A851FE /* SoundOptionEnum.swift */; };
 		9312C2152863A66100853699 /* SyllableAnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312C2142863A66100853699 /* SyllableAnswerModel.swift */; };
@@ -44,7 +43,6 @@
 		9300443A2879D65D0093D23B /* BA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BA.mp3; sourceTree = "<group>"; };
 		9300443C2879D65D0093D23B /* FA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FA.mp3; sourceTree = "<group>"; };
 		9300443D2879D65D0093D23B /* MA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MA.mp3; sourceTree = "<group>"; };
-		9300444D2879DD000093D23B /* banana 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banana 2.png"; sourceTree = "<group>"; };
 		930CC3F92846507A00A851FE /* SoundButtonsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundButtonsClass.swift; sourceTree = "<group>"; };
 		930CC4002846539E00A851FE /* SoundOptionEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundOptionEnum.swift; sourceTree = "<group>"; };
 		9312C2142863A66100853699 /* SyllableAnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllableAnswerModel.swift; sourceTree = "<group>"; };
@@ -169,7 +167,6 @@
 				93D90C1A2864B09600BF02EE /* Views */,
 				930CC3F82846506700A851FE /* Sounds */,
 				93A8EBCE28344B0B0025EDF1 /* Assets.xcassets */,
-				9300444D2879DD000093D23B /* banana 2.png */,
 			);
 			path = Alfabeta;
 			sourceTree = "<group>";
@@ -265,7 +262,6 @@
 				930044432879D65D0093D23B /* MA.mp3 in Resources */,
 				930044372879C93B0093D23B /* TE.mp3 in Resources */,
 				93EF91DF2846E29C00BD7FCD /* tada.mp3 in Resources */,
-				9300444E2879DD000093D23B /* banana 2.png in Resources */,
 				930044402879D65D0093D23B /* BA.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

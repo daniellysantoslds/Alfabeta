@@ -36,7 +36,7 @@ class SectionItemModel{
             SyllableAnswerModel(syllable: "de", sound: SoundOption.DE, buttonColor:  Color("Yellow 0"), textColor: Color ("Black 0"), isCorrect: false)
         ]
         
-        let activityMelancia: ActivityItemModel = ActivityItemModel(image: "atividademelancia", syllableSentence: syllableSentenceMelancia, syllableAnswer: syllableAnswerMelancia)
+        let activityMelancia: ActivityItemModel = ActivityItemModel(image: "melanciafofa", syllableSentence: syllableSentenceMelancia, syllableAnswer: syllableAnswerMelancia)
         
         
         
@@ -61,7 +61,7 @@ class SectionItemModel{
             
         ]
         
-        let activityBanana: ActivityItemModel = ActivityItemModel(image: "banana 2", syllableSentence: syllableSentenceBanana, syllableAnswer: syllableAnswerBanana)
+        let activityBanana: ActivityItemModel = ActivityItemModel(image: "banana 1", syllableSentence: syllableSentenceBanana, syllableAnswer: syllableAnswerBanana)
         
         
         
