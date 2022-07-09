@@ -13,6 +13,9 @@
 		930044402879D65D0093D23B /* BA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9300443A2879D65D0093D23B /* BA.mp3 */; };
 		930044422879D65D0093D23B /* FA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9300443C2879D65D0093D23B /* FA.mp3 */; };
 		930044432879D65D0093D23B /* MA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9300443D2879D65D0093D23B /* MA.mp3 */; };
+		930044592879EAC50093D23B /* PI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 930044582879EAC50093D23B /* PI.mp3 */; };
+		9300445B2879EACD0093D23B /* JA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9300445A2879EACD0093D23B /* JA.mp3 */; };
+		9300445D2879EB740093D23B /* cereja.png in Resources */ = {isa = PBXBuildFile; fileRef = 9300445C2879EB740093D23B /* cereja.png */; };
 		930CC3FA2846507A00A851FE /* SoundButtonsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CC3F92846507A00A851FE /* SoundButtonsClass.swift */; };
 		930CC4012846539E00A851FE /* SoundOptionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CC4002846539E00A851FE /* SoundOptionEnum.swift */; };
 		9312C2152863A66100853699 /* SyllableAnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312C2142863A66100853699 /* SyllableAnswerModel.swift */; };
@@ -43,6 +46,9 @@
 		9300443A2879D65D0093D23B /* BA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BA.mp3; sourceTree = "<group>"; };
 		9300443C2879D65D0093D23B /* FA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FA.mp3; sourceTree = "<group>"; };
 		9300443D2879D65D0093D23B /* MA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MA.mp3; sourceTree = "<group>"; };
+		930044582879EAC50093D23B /* PI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PI.mp3; sourceTree = "<group>"; };
+		9300445A2879EACD0093D23B /* JA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JA.mp3; sourceTree = "<group>"; };
+		9300445C2879EB740093D23B /* cereja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cereja.png; sourceTree = "<group>"; };
 		930CC3F92846507A00A851FE /* SoundButtonsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundButtonsClass.swift; sourceTree = "<group>"; };
 		930CC4002846539E00A851FE /* SoundOptionEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundOptionEnum.swift; sourceTree = "<group>"; };
 		9312C2142863A66100853699 /* SyllableAnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllableAnswerModel.swift; sourceTree = "<group>"; };
@@ -81,6 +87,7 @@
 		930044242879C2B20093D23B /* Frutas */ = {
 			isa = PBXGroup;
 			children = (
+				930044572879EAB40093D23B /* Cereja */,
 				930044442879D6710093D23B /* Banana */,
 				930044252879C2BD0093D23B /* Melancia */,
 			);
@@ -109,6 +116,15 @@
 				9300443D2879D65D0093D23B /* MA.mp3 */,
 			);
 			path = Banana;
+			sourceTree = "<group>";
+		};
+		930044572879EAB40093D23B /* Cereja */ = {
+			isa = PBXGroup;
+			children = (
+				9300445A2879EACD0093D23B /* JA.mp3 */,
+				930044582879EAC50093D23B /* PI.mp3 */,
+			);
+			path = Cereja;
 			sourceTree = "<group>";
 		};
 		930CC3F82846506700A851FE /* Sounds */ = {
@@ -167,6 +183,7 @@
 				93D90C1A2864B09600BF02EE /* Views */,
 				930CC3F82846506700A851FE /* Sounds */,
 				93A8EBCE28344B0B0025EDF1 /* Assets.xcassets */,
+				9300445C2879EB740093D23B /* cereja.png */,
 			);
 			path = Alfabeta;
 			sourceTree = "<group>";
@@ -254,11 +271,14 @@
 				93F0CF4D284799B20045E2DF /* BE.mp3 in Resources */,
 				930044422879D65D0093D23B /* FA.mp3 in Resources */,
 				93A8EBCF28344B0B0025EDF1 /* Assets.xcassets in Resources */,
+				930044592879EAC50093D23B /* PI.mp3 in Resources */,
 				93EF91DE2846E29C00BD7FCD /* badun.mp3 in Resources */,
 				93F0CF4C284799B20045E2DF /* ME.mp3 in Resources */,
+				9300445D2879EB740093D23B /* cereja.png in Resources */,
 				9300443E2879D65D0093D23B /* LA.mp3 in Resources */,
 				930044362879C93B0093D23B /* DE.mp3 in Resources */,
 				93F0CF4E284799B20045E2DF /* XA.mp3 in Resources */,
+				9300445B2879EACD0093D23B /* JA.mp3 in Resources */,
 				930044432879D65D0093D23B /* MA.mp3 in Resources */,
 				930044372879C93B0093D23B /* TE.mp3 in Resources */,
 				93EF91DF2846E29C00BD7FCD /* tada.mp3 in Resources */,
