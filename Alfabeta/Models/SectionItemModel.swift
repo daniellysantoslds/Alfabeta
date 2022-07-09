@@ -36,7 +36,7 @@ class SectionItemModel{
             SyllableAnswerModel(syllable: "de", sound: SoundOption.DE, buttonColor:  Color("Yellow 0"), textColor: Color ("Black 0"), isCorrect: false)
         ]
         
-        let activityMelancia: ActivityItemModel = ActivityItemModel(image: "melanciafofa", syllableSentence: syllableSentenceMelancia, syllableAnswer: syllableAnswerMelancia)
+        let activityMelancia: ActivityItemModel = ActivityItemModel(image: "melancia", syllableSentence: syllableSentenceMelancia, syllableAnswer: syllableAnswerMelancia)
         
         
         
@@ -61,7 +61,36 @@ class SectionItemModel{
             
         ]
         
-        let activityBanana: ActivityItemModel = ActivityItemModel(image: "banana 1", syllableSentence: syllableSentenceBanana, syllableAnswer: syllableAnswerBanana)
+        let activityBanana: ActivityItemModel = ActivityItemModel(image: "banana", syllableSentence: syllableSentenceBanana, syllableAnswer: syllableAnswerBanana)
+        
+        
+        
+        // ==== cereja Activity ====
+        
+        //Silabas da sentenca
+        let syllableSentenceCereja: [SyllableSentenceModel] = [
+            SyllableSentenceModel(syllable: "?", toGuess: true),
+            SyllableSentenceModel(syllable: "na", toGuess: false),
+            SyllableSentenceModel(syllable: "na", toGuess: false)
+        ]
+        
+        //Silabas de resposta
+        let syllableAnswerCereja : [SyllableAnswerModel] = [
+            SyllableAnswerModel(syllable: "ba", sound: SoundOption.BA, buttonColor: Color("Purple 0"), textColor: Color ("White 0"), isCorrect: true),
+            SyllableAnswerModel(syllable: "la", sound: SoundOption.LA, buttonColor:  Color("Yellow 0"), textColor: Color ("Black 0"), isCorrect: false),
+           
+            SyllableAnswerModel(syllable: "pa", sound: SoundOption.PA, buttonColor:  Color("Purple 0"), textColor: Color ("White 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "xa", sound: SoundOption.XA, buttonColor:  Color("Yellow 0"), textColor: Color ("Black 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "fa", sound: SoundOption.FA, buttonColor:  Color("Purple 0"), textColor: Color ("White 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "ma", sound: SoundOption.MA, buttonColor:  Color("Yellow 0"), textColor: Color ("Black 0"), isCorrect: false)
+            
+        ]
+        
+        let activityCereja: ActivityItemModel = ActivityItemModel(image: "banana", syllableSentence: syllableSentenceCereja, syllableAnswer: syllableAnswerCereja)
+        
+        
+        
+        
         
         
         
