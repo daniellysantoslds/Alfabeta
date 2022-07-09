@@ -5,6 +5,12 @@ enum SoundOption: String {
     case PA
     case BE
     case ME
+    case DE
+    case TE
+    case BA
+    case FA
+    case LA
+    case MA
     
     
     

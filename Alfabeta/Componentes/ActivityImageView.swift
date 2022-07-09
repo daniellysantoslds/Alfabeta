@@ -20,7 +20,7 @@ struct ActivityImageView: View {
             Image(imagematividade)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 351, height: 162)
+                .frame(width: 340, height: 162)
                 .clipped()
             
         }
@@ -30,6 +30,6 @@ struct ActivityImageView: View {
 
 struct ActivityImageView_Previews: PreviewProvider {
     static var previews: some View {
-        ActivityImageView(imagematividade: "atividademelancia")
+        ActivityImageView(imagematividade: "Bananas")
     }
 }
