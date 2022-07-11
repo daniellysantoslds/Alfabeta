@@ -20,7 +20,7 @@ struct ActivityImageView: View {
             Image(imagematividade)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 340, height: 162)
+                .frame(width: 351, height: 162)
                 .clipped()
             
         }

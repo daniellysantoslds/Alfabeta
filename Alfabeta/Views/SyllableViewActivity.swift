@@ -32,7 +32,7 @@ struct SyllableViewActivity: View {
     
     var body: some View {
         ScrollView(showsIndicators: false) {
-            Spacer(minLength: 32)
+            Spacer(minLength: 72)
             
             VStack(alignment: .center, spacing: 10)
             {
