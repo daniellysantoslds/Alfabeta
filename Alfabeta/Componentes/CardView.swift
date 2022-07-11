@@ -28,8 +28,8 @@ struct CardView: View {
                 .frame(width: 112, height: 112)
                 .clipped()
                 .clipShape(Circle())
-                .overlay(Circle()
-                .stroke(Color.blue,lineWidth: 8))
+                //b.overlay(Circle())
+                //.stroke(Color.blue,lineWidth: 8))
         Text(titulo)
         .font(.title2).foregroundColor(.black).multilineTextAlignment(.center)
         }
@@ -40,7 +40,7 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(titulo: "Frutas", imagem: "capafrutas", sectionItemData: SectionItemModel.initDataToFruits())
+        CardView(titulo: "Frutas", imagem: "cardteste", sectionItemData: SectionItemModel.initDataToFruits())
 }
 }
 

@@ -39,7 +39,6 @@
 		93F0CF4F284799B20045E2DF /* PA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93F0CF4B284799B20045E2DF /* PA.mp3 */; };
 		93FD6ABF287C78EC0046C3BE /* LAsc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93FD6ABE287C78EC0046C3BE /* LAsc.mp3 */; };
 		93FD6AC2287C7C090046C3BE /* MO.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93FD6AC1287C7C090046C3BE /* MO.mp3 */; };
-		93FD6AC4287C7CD60046C3BE /* Imagem-de-Frutas-Amora-PNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FD6AC3287C7CD60046C3BE /* Imagem-de-Frutas-Amora-PNG.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,7 +75,6 @@
 		93F0CF4B284799B20045E2DF /* PA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PA.mp3; sourceTree = "<group>"; };
 		93FD6ABE287C78EC0046C3BE /* LAsc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LAsc.mp3; sourceTree = "<group>"; };
 		93FD6AC1287C7C090046C3BE /* MO.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MO.mp3; sourceTree = "<group>"; };
-		93FD6AC3287C7CD60046C3BE /* Imagem-de-Frutas-Amora-PNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Imagem-de-Frutas-Amora-PNG.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				93A8EBCE28344B0B0025EDF1 /* Assets.xcassets */,
-				93FD6AC3287C7CD60046C3BE /* Imagem-de-Frutas-Amora-PNG.png */,
 			);
 			name = SupportingFiles;
 			sourceTree = "<group>";
@@ -301,7 +298,6 @@
 				93FD6ABF287C78EC0046C3BE /* LAsc.mp3 in Resources */,
 				93F0CF4C284799B20045E2DF /* ME.mp3 in Resources */,
 				9300445D2879EB740093D23B /* cereja.png in Resources */,
-				93FD6AC4287C7CD60046C3BE /* Imagem-de-Frutas-Amora-PNG.png in Resources */,
 				9300443E2879D65D0093D23B /* LA.mp3 in Resources */,
 				930044362879C93B0093D23B /* DE.mp3 in Resources */,
 				93F0CF4E284799B20045E2DF /* XA.mp3 in Resources */,

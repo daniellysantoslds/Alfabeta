@@ -19,11 +19,11 @@ struct HomeView: View {
                 
             HStack(alignment: .center
                    , spacing: 0){
-            CardView(titulo: "Frutas", imagem: "capafrutas", sectionItemData: SectionItemModel.initDataToFruits())
+            CardView(titulo: "Frutas", imagem: "cardfrutas", sectionItemData: SectionItemModel.initDataToFruits())
                 
             Spacer()
                 
-                CardView(titulo: "Legumes", imagem: "capalegumes", sectionItemData: SectionItemModel.initDataToFruits())
+                CardView(titulo: "Legumes", imagem: "cardlegumes", sectionItemData: SectionItemModel.initDataToFruits())
             }.padding([.bottom, .horizontal],32)
             
                 
@@ -32,11 +32,11 @@ struct HomeView: View {
                 
             HStack(alignment: .center
                    , spacing: 0){
-                CardView(titulo: "Terrestres", imagem: "capaanimaisterrestres", sectionItemData: SectionItemModel.initDataToFruits())
+                CardView(titulo: "Terrestres", imagem: "cardanimaisterrestres", sectionItemData: SectionItemModel.initDataToFruits())
                 
                 
             Spacer()
-                CardView(titulo: "Marinhos", imagem: "capaanimaismarinhos", sectionItemData: SectionItemModel.initDataToFruits())
+                CardView(titulo: "Marinhos", imagem: "cardanimaismarinhos", sectionItemData: SectionItemModel.initDataToFruits())
             }.padding([.bottom, .horizontal],32)
             
                 
@@ -45,11 +45,11 @@ struct HomeView: View {
                 
             HStack(alignment: .center
                    , spacing: 0){
-                CardView(titulo: "Gerais", imagem: "capaobjetosgerais", sectionItemData: SectionItemModel.initDataToFruits())
+                CardView(titulo: "Gerais", imagem: "cardobjetosgerais", sectionItemData: SectionItemModel.initDataToFruits())
                 
             Spacer()
                 
-                CardView(titulo: "Escolares", imagem: "capaobjetosescolares", sectionItemData: SectionItemModel.initDataToFruits())
+                CardView(titulo: "Escolares", imagem: "cardobjetosescolares", sectionItemData: SectionItemModel.initDataToFruits())
             }.padding([.bottom, .horizontal],32)
         }
             .navigationBarTitle("", displayMode:.inline)
