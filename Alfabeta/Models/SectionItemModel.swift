@@ -89,7 +89,28 @@ class SectionItemModel{
         let activityCereja: ActivityItemModel = ActivityItemModel(image: "cereja", syllableSentence: syllableSentenceCereja, syllableAnswer: syllableAnswerCereja)
         
         
+        // ==== laranja Activity ====
         
+        //Silabas da sentenca
+        let syllableSentenceAmora: [SyllableSentenceModel] = [
+            SyllableSentenceModel(syllable: "a", toGuess: false),
+            SyllableSentenceModel(syllable: "?", toGuess: true),
+            SyllableSentenceModel(syllable: "ra", toGuess: false)
+        ]
+        
+        //Silabas de resposta
+        let syllableAnswerAmora : [SyllableAnswerModel] = [
+            SyllableAnswerModel(syllable: "pi", sound: SoundOption.PI, buttonColor: Color("Purple 0"), textColor: Color ("White 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "ma", sound: SoundOption.MA, buttonColor:  Color("Yellow 0"), textColor: Color ("Black 0"), isCorrect: false),
+           
+            SyllableAnswerModel(syllable: "mo", sound: SoundOption.MO, buttonColor:  Color("Purple 0"), textColor: Color ("White 0"), isCorrect: true),
+            SyllableAnswerModel(syllable: "be", sound: SoundOption.BE, buttonColor:  Color("Yellow 0"), textColor: Color ("Black 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "xa", sound: SoundOption.XA, buttonColor:  Color("Purple 0"), textColor: Color ("White 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "fa", sound: SoundOption.FA, buttonColor:  Color("Yellow 0"), textColor: Color ("Black 0"), isCorrect: false)
+            
+        ]
+        
+        let activityAmora: ActivityItemModel = ActivityItemModel(image: "amora", syllableSentence: syllableSentenceAmora, syllableAnswer: syllableAnswerAmora)
         
         
         
@@ -99,7 +120,7 @@ class SectionItemModel{
         
       
         
-        return SectionItemModel(activities: [activityMelancia, activityBanana, activityCereja])
+        return SectionItemModel(activities: [activityMelancia, activityBanana, activityCereja, activityAmora])
     }
     
     //iniciar atividades em outro card "exemplo card legumes"

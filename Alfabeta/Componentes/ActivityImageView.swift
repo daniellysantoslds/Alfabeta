@@ -30,6 +30,6 @@ struct ActivityImageView: View {
 
 struct ActivityImageView_Previews: PreviewProvider {
     static var previews: some View {
-        ActivityImageView(imagematividade: "banana 1")
+        ActivityImageView(imagematividade: "amora")
     }
 }
