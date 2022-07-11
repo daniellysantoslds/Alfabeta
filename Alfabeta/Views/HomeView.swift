@@ -12,7 +12,7 @@ struct HomeView: View {
         NavigationView {
         ScrollView(.vertical,showsIndicators: false) {
             VStack(){
-            Spacer(minLength: 16)
+            Spacer(minLength: 32)
             Text("Alimentos").font(Font.title.weight(.semibold))
             .foregroundColor(Color("Black -1"))
             .multilineTextAlignment(.center)

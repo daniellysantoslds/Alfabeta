@@ -14,7 +14,7 @@ struct CardSyllableView: View {
     let toGuess: Bool = false;
     init (textButton: String, toGuess: Bool){
         self.textButton = textButton
-        self.buttonColor = toGuess ? Color("Grey -1") : Color("Blue +1")
+        self.buttonColor = toGuess ? Color("Grey -1") : Color("Blue +3")
         self.textColor = toGuess ? Color("Black 0") : Color("White 0")
     }
     var body: some View {

@@ -41,7 +41,7 @@ struct ClickSyllableView: View {
             
             SoundManager.instance.playSound(sound: self.sound)
             if silabaActive {
-                self.buttonColor = Color("Green 0")
+                self.buttonColor = Color("Green +1")
             } else{
                 self.buttonColor = Color("Red -1")
             }
