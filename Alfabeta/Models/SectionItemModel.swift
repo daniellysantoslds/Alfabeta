@@ -28,11 +28,11 @@ class SectionItemModel{
         //Silabas de resposta
         let syllableAnswerMelancia : [SyllableAnswerModel] = [
             SyllableAnswerModel(syllable: "me", sound: SoundOption.ME, buttonColor: Color("Purple +2"), textColor: Color ("White 0"), isCorrect: true),
-            SyllableAnswerModel(syllable: "la", sound: SoundOption.LA, buttonColor: Color("Yellow +2"), textColor: Color ("Black 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "la", sound: SoundOption.LA, buttonColor: Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
             SyllableAnswerModel(syllable: "pa", sound: SoundOption.PA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
-            SyllableAnswerModel(syllable: "xa", sound: SoundOption.XA, buttonColor:  Color("Yellow +2"), textColor: Color ("Black 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "xa", sound: SoundOption.XA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
             SyllableAnswerModel(syllable: "te", sound: SoundOption.TE, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
-            SyllableAnswerModel(syllable: "de", sound: SoundOption.DE, buttonColor:  Color("Yellow +2"), textColor: Color ("Black 0"), isCorrect: false)
+            SyllableAnswerModel(syllable: "de", sound: SoundOption.DE, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false)
         ]
         
         let activityMelancia: ActivityItemModel = ActivityItemModel(image: "melancia", syllableSentence: syllableSentenceMelancia, syllableAnswer: syllableAnswerMelancia)
@@ -51,12 +51,12 @@ class SectionItemModel{
         //Silabas de resposta
         let syllableAnswerBanana : [SyllableAnswerModel] = [
             SyllableAnswerModel(syllable: "ba", sound: SoundOption.BA, buttonColor: Color("Purple +2"), textColor: Color ("White 0"), isCorrect: true),
-            SyllableAnswerModel(syllable: "la", sound: SoundOption.LA, buttonColor:  Color("Yellow +2"), textColor: Color ("Black 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "la", sound: SoundOption.LA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
            
             SyllableAnswerModel(syllable: "pa", sound: SoundOption.PA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
-            SyllableAnswerModel(syllable: "xa", sound: SoundOption.XA, buttonColor:  Color("Yellow +2"), textColor: Color ("Black 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "xa", sound: SoundOption.XA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
             SyllableAnswerModel(syllable: "fa", sound: SoundOption.FA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
-            SyllableAnswerModel(syllable: "ma", sound: SoundOption.MA, buttonColor:  Color("Yellow +2"), textColor: Color ("Black 0"), isCorrect: false)
+            SyllableAnswerModel(syllable: "ma", sound: SoundOption.MA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false)
             
         ]
         
@@ -76,12 +76,12 @@ class SectionItemModel{
         //Silabas de resposta
         let syllableAnswerCereja : [SyllableAnswerModel] = [
             SyllableAnswerModel(syllable: "de", sound: SoundOption.DE, buttonColor: Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
-            SyllableAnswerModel(syllable: "la", sound: SoundOption.LA, buttonColor:  Color("Yellow +2"), textColor: Color ("Black 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "la", sound: SoundOption.LA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
            
             SyllableAnswerModel(syllable: "ja", sound: SoundOption.JA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: true),
-            SyllableAnswerModel(syllable: "be", sound: SoundOption.XA, buttonColor:  Color("Yellow +2"), textColor: Color ("Black 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "be", sound: SoundOption.XA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
             SyllableAnswerModel(syllable: "pi", sound: SoundOption.PI, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
-            SyllableAnswerModel(syllable: "ma", sound: SoundOption.MA, buttonColor:  Color("Yellow +2"), textColor: Color ("Black 0"), isCorrect: false)
+            SyllableAnswerModel(syllable: "ma", sound: SoundOption.MA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false)
             
         ]
         
@@ -100,12 +100,12 @@ class SectionItemModel{
         //Silabas de resposta
         let syllableAnswerAmora : [SyllableAnswerModel] = [
             SyllableAnswerModel(syllable: "pi", sound: SoundOption.PI, buttonColor: Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
-            SyllableAnswerModel(syllable: "ma", sound: SoundOption.MA, buttonColor:  Color("Yellow +2"), textColor: Color ("Black 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "ma", sound: SoundOption.MA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
            
             SyllableAnswerModel(syllable: "mo", sound: SoundOption.MO, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: true),
-            SyllableAnswerModel(syllable: "be", sound: SoundOption.BE, buttonColor:  Color("Yellow +2"), textColor: Color ("Black 0"), isCorrect: false),
+            SyllableAnswerModel(syllable: "be", sound: SoundOption.BE, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
             SyllableAnswerModel(syllable: "xa", sound: SoundOption.XA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
-            SyllableAnswerModel(syllable: "fa", sound: SoundOption.FA, buttonColor:  Color("Yellow +2"), textColor: Color ("Black 0"), isCorrect: false)
+            SyllableAnswerModel(syllable: "fa", sound: SoundOption.FA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false)
             
         ]
         
