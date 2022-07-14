@@ -158,6 +158,27 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		937F2CAA2880482300029D60 /* Modells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modells;
+			sourceTree = "<group>";
+		};
+		937F2CAB2880483800029D60 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		937F2CAC2880484000029D60 /* Viewss */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Viewss;
+			sourceTree = "<group>";
+		};
 		9387ECD1284277C9004A9052 /* Componentes */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +209,9 @@
 		93A8EBC928344B0A0025EDF1 /* Alfabeta */ = {
 			isa = PBXGroup;
 			children = (
+				937F2CAC2880484000029D60 /* Viewss */,
+				937F2CAB2880483800029D60 /* Controllers */,
+				937F2CAA2880482300029D60 /* Modells */,
 				9312C2132863A2EC00853699 /* Models */,
 				9387ECD1284277C9004A9052 /* Componentes */,
 				93D90C1A2864B09600BF02EE /* Views */,
