@@ -1,20 +1,56 @@
 //
 //  SplashScreen.swift
-//  Alfabeta
-//
-//  Created by Danielly Santos Lopes da Silva on 16/07/22.
+//  Alfabeta /22.
 //
 
 import SwiftUI
 
 struct SplashScreen: View {
+
+    @State private var isActive = false
+ 
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if isActive {
+            ContentView()
+        } else {
+            
+            VStack{
+                ZStack{
+                    Color.blue.ignoresSafeArea()
+                    Image("alfabeta")
+
+                }
+
+                .onAppear{
+                    withAnimation(.easeIn(duration: 1.2)){
+                    }
+                }
+            }
+                .onAppear{
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.5){
+                        withAnimation {
+                            self.isActive = true
+                            
+                        }
+                       
+                    }
+                }
+            
+
+        }
+            
+        }
+       
     }
-}
+    
+
 
 struct SplashScreen_Previews: PreviewProvider {
     static var previews: some View {
         SplashScreen()
     }
 }
+
+
+
