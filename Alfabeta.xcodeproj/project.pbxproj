@@ -25,6 +25,7 @@
 		935F68C828357D0C00EBACB2 /* SyllableViewActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68C728357D0C00EBACB2 /* SyllableViewActivity.swift */; };
 		935F68CC28358D7700EBACB2 /* ActivityImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68CB28358D7700EBACB2 /* ActivityImageView.swift */; };
 		935F68D02835932300EBACB2 /* CardSyllableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68CF2835932300EBACB2 /* CardSyllableView.swift */; };
+		9370A112288378C5003D999C /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9370A111288378C5003D999C /* SplashScreen.swift */; };
 		93A8EBCB28344B0A0025EDF1 /* AlfabetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A8EBCA28344B0A0025EDF1 /* AlfabetaApp.swift */; };
 		93A8EBCD28344B0A0025EDF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A8EBCC28344B0A0025EDF1 /* ContentView.swift */; };
 		93A8EBCF28344B0B0025EDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A8EBCE28344B0B0025EDF1 /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		935F68C728357D0C00EBACB2 /* SyllableViewActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllableViewActivity.swift; sourceTree = "<group>"; };
 		935F68CB28358D7700EBACB2 /* ActivityImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityImageView.swift; sourceTree = "<group>"; };
 		935F68CF2835932300EBACB2 /* CardSyllableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSyllableView.swift; sourceTree = "<group>"; };
+		9370A111288378C5003D999C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		93A8EBC728344B0A0025EDF1 /* Alfabeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alfabeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A8EBCA28344B0A0025EDF1 /* AlfabetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfabetaApp.swift; sourceTree = "<group>"; };
 		93A8EBCC28344B0A0025EDF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				93A8EBCC28344B0A0025EDF1 /* ContentView.swift */,
 				93A8EBCA28344B0A0025EDF1 /* AlfabetaApp.swift */,
 				935F68C728357D0C00EBACB2 /* SyllableViewActivity.swift */,
+				9370A111288378C5003D999C /* SplashScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9370A112288378C5003D999C /* SplashScreen.swift in Sources */,
 				9312C2192863C0F500853699 /* ActivityItemModel.swift in Sources */,
 				9312C2172863AC1D00853699 /* SyllableSentenceModel.swift in Sources */,
 				930CC3FA2846507A00A851FE /* SoundButtonsClass.swift in Sources */,
