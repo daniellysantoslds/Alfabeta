@@ -18,7 +18,7 @@ struct SplashScreen: View {
             VStack{
                 ZStack{
                     Color.blue.ignoresSafeArea()
-                    Image("alfabeta")
+                    Image("Alfabeta (1)")
 
                 }
 
