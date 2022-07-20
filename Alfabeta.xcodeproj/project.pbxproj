@@ -18,7 +18,7 @@
 		932526872888AB160067F430 /* LA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 932526832888AB160067F430 /* LA.mp3 */; };
 		932526882888AB160067F430 /* FA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 932526842888AB160067F430 /* FA.mp3 */; };
 		9325268D2888ABB80067F430 /* BE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 932526892888ABB70067F430 /* BE.mp3 */; };
-		9325268E2888ABB80067F430 /* XA- se.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9325268A2888ABB70067F430 /* XA- se.mp3 */; };
+		9325268E2888ABB80067F430 /* XA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9325268A2888ABB70067F430 /* XA.mp3 */; };
 		9325268F2888ABB80067F430 /* PA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9325268B2888ABB80067F430 /* PA.mp3 */; };
 		932526902888ABB80067F430 /* ME.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9325268C2888ABB80067F430 /* ME.mp3 */; };
 		935F68C628357BBD00EBACB2 /* ClickSyllableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F68C528357BBD00EBACB2 /* ClickSyllableView.swift */; };
@@ -45,7 +45,7 @@
 		932526832888AB160067F430 /* LA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = LA.mp3; path = Alfabeta/LA.mp3; sourceTree = SOURCE_ROOT; };
 		932526842888AB160067F430 /* FA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = FA.mp3; path = Alfabeta/FA.mp3; sourceTree = SOURCE_ROOT; };
 		932526892888ABB70067F430 /* BE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BE.mp3; path = Alfabeta/BE.mp3; sourceTree = SOURCE_ROOT; };
-		9325268A2888ABB70067F430 /* XA- se.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "XA- se.mp3"; path = "Alfabeta/XA- se.mp3"; sourceTree = SOURCE_ROOT; };
+		9325268A2888ABB70067F430 /* XA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = XA.mp3; path = Alfabeta/XA.mp3; sourceTree = SOURCE_ROOT; };
 		9325268B2888ABB80067F430 /* PA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PA.mp3; path = Alfabeta/PA.mp3; sourceTree = SOURCE_ROOT; };
 		9325268C2888ABB80067F430 /* ME.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ME.mp3; path = Alfabeta/ME.mp3; sourceTree = SOURCE_ROOT; };
 		935F68C528357BBD00EBACB2 /* ClickSyllableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickSyllableView.swift; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 				932526892888ABB70067F430 /* BE.mp3 */,
 				9325268C2888ABB80067F430 /* ME.mp3 */,
 				9325268B2888ABB80067F430 /* PA.mp3 */,
-				9325268A2888ABB70067F430 /* XA- se.mp3 */,
+				9325268A2888ABB70067F430 /* XA.mp3 */,
 				932526842888AB160067F430 /* FA.mp3 */,
 				932526832888AB160067F430 /* LA.mp3 */,
 				932526812888AB160067F430 /* MA.mp3 */,
@@ -225,7 +225,7 @@
 				932526862888AB160067F430 /* TE.mp3 in Resources */,
 				9325268F2888ABB80067F430 /* PA.mp3 in Resources */,
 				932526902888ABB80067F430 /* ME.mp3 in Resources */,
-				9325268E2888ABB80067F430 /* XA- se.mp3 in Resources */,
+				9325268E2888ABB80067F430 /* XA.mp3 in Resources */,
 				93A8EBCF28344B0B0025EDF1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

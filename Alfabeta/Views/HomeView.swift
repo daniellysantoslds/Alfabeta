@@ -59,7 +59,10 @@ struct HomeView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color("White 0"))
         }
-    }
+        }
+        
+        
+        
 }
 
 struct HomeView_Previews: PreviewProvider {
