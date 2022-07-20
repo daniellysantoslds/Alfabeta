@@ -79,6 +79,9 @@ struct SyllableViewActivity: View {
             }
         }
     }
+        
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color("White 0"))
 }
 
 struct SyllableViewActivity_Previews: PreviewProvider {

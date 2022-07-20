@@ -13,6 +13,7 @@ struct HomeView: View {
         ScrollView(.vertical,showsIndicators: false) {
             VStack(){
             Spacer(minLength: 32)
+                    .background(Color("White 0"))
             Text("Alimentos").font(Font.title.weight(.semibold))
             .foregroundColor(Color("Black -1"))
             .multilineTextAlignment(.center)
@@ -55,7 +56,8 @@ struct HomeView: View {
             .navigationBarTitle("", displayMode:.inline)
             .navigationBarHidden(true)
             
-            
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color("White 0"))
         }
     }
 }
