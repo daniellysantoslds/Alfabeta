@@ -27,7 +27,7 @@ class SectionItemModel{
         
         //Silabas de resposta
         let syllableAnswerMelancia : [SyllableAnswerModel] = [
-            SyllableAnswerModel(syllable: "me", sound: SoundOption.ME, buttonColor: Color("Purple +2"), textColor: Color ("White 0"), isCorrect: true),
+            SyllableAnswerModel(syllable: "me", sound: SoundOption.MEJA, buttonColor: Color("Purple +2"), textColor: Color ("White 0"), isCorrect: true),
             SyllableAnswerModel(syllable: "la", sound: SoundOption.LA, buttonColor: Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
             SyllableAnswerModel(syllable: "pa", sound: SoundOption.PA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
             SyllableAnswerModel(syllable: "xa", sound: SoundOption.XA, buttonColor:  Color("Purple +2"), textColor: Color ("White 0"), isCorrect: false),
