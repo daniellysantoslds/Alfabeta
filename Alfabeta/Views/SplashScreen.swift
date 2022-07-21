@@ -17,7 +17,7 @@ struct SplashScreen: View {
             
             VStack{
                 ZStack{
-                    Color.blue.ignoresSafeArea()
+                    Color("Blue +1").ignoresSafeArea()
                     Text("Alfabeta")
                         .font(.system(size: 48)).bold()
                             .foregroundColor(.white)

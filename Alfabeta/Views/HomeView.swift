@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         NavigationView {
+        
         ScrollView(.vertical,showsIndicators: false) {
             VStack(){
             Spacer(minLength: 32)
@@ -56,7 +57,8 @@ struct HomeView: View {
             .navigationBarTitle("", displayMode:.inline)
             .navigationBarHidden(true)
             
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            
+           // Color.white.edgesIgnoringSafeArea(.all)
             .background(Color("White 0"))
         }
         }
@@ -68,6 +70,8 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+            .previewInterfaceOrientation(.portrait)
     }
 }
 }
+
