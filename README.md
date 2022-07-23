@@ -24,4 +24,4 @@ A barra de progresso das atividades e o AutoLayout ainda estão sendo trabalhado
 
 Organizacão de trabalho no <a href="https://cat-flamingo-832.notion.site/Alfabeta-b3361173a82d4c6c84aaffb77139cf02" target="_blank" rel="external" >Notion</a>
 
-Artigo sobre o projeto no  <a href="https://medium.com/@danielly.santoslopesds/alfabeta-auxiliando-no-processo-de-alfabetiza%C3%A7%C3%A3o-c50900d7e257" target="_blank" rel="external" class="nav__link">Medium</a>
+Artigo sobre o projeto no  <a href="https://medium.com/@danielly.santoslopesds/alfabeta-auxiliando-no-processo-de-alfabetiza%C3%A7%C3%A3o-c50900d7e257" target="_blank" rel="external">Medium</a>
