@@ -5,7 +5,7 @@ Uma solução para mobile utilizando o framework  CBL(Challenge Based Learning).
 Este aplicativo é como um joguinho de aprendizagem infantil com foco no processo de alfabetização de crianças. Fazendo o uso de sons, imagens e cores nas atividades propostas. 
 
 
-<h2>Tecnologia</h2>
+<h2>Tecnologias</h2>
 
 O desenvolvimento foi feito para IOS, e toda a implementação foi feita em SwiftUI, utilizei o framework AVKit para inserir os sons que que sao acionados quando o usuario clica nos botões.
 
