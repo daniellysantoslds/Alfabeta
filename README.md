@@ -7,7 +7,7 @@ Este aplicativo é como um joguinho de aprendizagem infantil com foco no process
 
 <h2>Tecnologias</h2>
 
-O desenvolvimento foi feito para IOS, e toda a implementação foi feita em SwiftUI, utilizei o framework AVKit para inserir os sons que que sao acionados quando o usuario clica nos botões.
+O desenvolvimento foi feito para IOS, e toda a implementação foi feita em SwiftUI, utilizei o framework AVKit para inserir os sons.
 
 A barra de progresso das atividades e o AutoLayout ainda estão sendo trabalhados.
 
